@@ -8,21 +8,19 @@ For each dataset we will also identify the most common words used that are used 
 ## Files
 Here are the important files (the remaining files should be ignored):
 
-* [Datasets](./Datasets): The datasets included in this folder are:
+* [Datasets.zip](./Datasets.zip): This .zip foleder contain all the datasets.Included in this folder are:
   * [nela-gt-2020](./Datasets/nela-gt-2020):The dataset can be found in [NELA-GT-2020](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CHMUYZ)
   * [Random_Political](./Datasets/Random_Political):The dataset can be found in [Random_Political](https://github.com/BenjaminDHorne/fakenewsdata1)
   * [buzzfeed-v02-originalLabels.txt](./Datasets/buzzfeed-v02-originalLabels.txt):The dataset can be found in [MisInfoText](https://github.com/sfu-discourse-lab/MisInfoText#readme)
-* [Code](./Code):The rmarkdown file that contains the detailed step of the spatial data analysis and correction.
-  * [Fake_news_classification](./Code/Fake_news_classification.ipynb): boston.c, which is provided as part of the spData package in R.
-  * [Data](./Code/data): Contains the data files into spaCy’s binary training and testing data format for the classification model.
-  * [outputs](./Code/outputs): Contains the directories where the trained models are saved.
-* [Report](./Report): Contains the code that was used for the analysis.
-  * [bibliography](./Report/bibliography): Contains all the references.
+*[Fake_news_classification.ipynb](./Code/Fake_news_classification.ipynb): The jupyter notebook used for this analysis.
+* The base configuration files used in the model training.
+
 
 ## Instructions
 
-In order to run [jupyter notebook](./Code/Fake_news_classification.ipynb) that's included in the [Code](./Code) folder, you will need to first download the folder containing the [Datasets](./Datasets).
+In order to run [jupyter notebook](./Fake_news_classification.ipynb), you will need to first download the .zip folder containing the [Datasets.zip](./Datasets.zip).
 You can use the base configuration files provided in the [Code](./Code) folder or create a new one using the [widget](https://spacy.io/usage/training#quickstart) provided by spacy.
+
 The text classification models are already trained and can be found in the [outputs](./Code/outputs) folder.You can choose when running the code to not retrain the models and see the results by loading the models.
 
 ## Datasets
