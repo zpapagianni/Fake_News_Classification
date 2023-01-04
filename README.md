@@ -12,7 +12,7 @@ Here are the important files (the remaining files should be ignored):
   * [nela-gt-2020](./Datasets/nela-gt-2020):The dataset can be found in [NELA-GT-2020](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CHMUYZ)
   * [Random_Political](./Datasets/Random_Political):The dataset can be found in [Random_Political](https://github.com/BenjaminDHorne/fakenewsdata1)
   * [buzzfeed-v02-originalLabels.txt](./Datasets/buzzfeed-v02-originalLabels.txt):The dataset can be found in [MisInfoText](https://github.com/sfu-discourse-lab/MisInfoText#readme)
-*[Fake_news_classification.ipynb](./Code/Fake_news_classification.ipynb): The jupyter notebook used for this analysis.
+* [Fake_news_classification.ipynb](./Code/Fake_news_classification.ipynb): The jupyter notebook used for this analysis.
 * The base configuration files used in the model training.
 * [outputs.zip](./outputs): Contains the directories where the trained models are saved.
 
