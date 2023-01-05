@@ -1,0 +1,4 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.zipgit filter=lfs diff=lfs merge=lfs -text
+add filter=lfs diff=lfs merge=lfs -text
+/Users/papagiannizoe/Desktop/Git-projects/Fake_news_classification/fake_news_classification/outputs/output_misinfo.zip filter=lfs diff=lfs merge=lfs -text
