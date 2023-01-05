@@ -14,11 +14,11 @@ Here are the important files (the remaining files should be ignored):
   * [buzzfeed-v02-originalLabels.txt](./Datasets/buzzfeed-v02-originalLabels.txt):The dataset can be found in [MisInfoText](https://github.com/sfu-discourse-lab/MisInfoText#readme)
 * [Fake_news_classification.ipynb](./Code/Fake_news_classification.ipynb): The jupyter notebook used for this analysis.
 * The base configuration files used in the model training.
-* [outputs.zip](./outputs): Contains the directories where the trained models are saved.
+* [outputs](./outputs): Contains the directories where the trained models are saved.
 
 ## Instructions
 
-In order to run [jupyter notebook](./Fake_news_classification.ipynb), you will need to first download the .zip folder containing the [Datasets.zip](./Datasets.zip) and [outputs.zip](./outputs)
+In order to run [jupyter notebook](./Fake_news_classification.ipynb), you will need to first download the .zip folder containing the [Datasets.zip](./Datasets.zip) and the folder [outputs](./outputs). This folder contain the compressed models. You will need to unzip the files before testing the models. 
 You can use the base configuration files provided in the [Code](./Code) folder or create a new one using the [widget](https://spacy.io/usage/training#quickstart) provided by spacy.
 
 The text classification models are already trained and can be found in the [outputs](./Code/outputs) folder.You can choose when running the code to not retrain the models and see the results by loading the models.
