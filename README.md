@@ -49,8 +49,8 @@ The dataset only contains the text of the titles, and there aren't any missing v
 
 ### MisInfoText
 This dataset was used in the original story “Hyperpartisan Facebook Pages Are Publishing False And Misleading Information At An Alarming Rate” 
-published in October 20th, \autocite{silverman_2016}. This dataset was originally published on GitHub by 
-(BuzzFeed News)[https://github.com/BuzzFeedNews/2016-10-facebook-fact-check].It consists of a sample of news articles
+published in October 20th. This dataset was originally published on GitHub by 
+[BuzzFeed News](https://github.com/BuzzFeedNews/2016-10-facebook-fact-check).It consists of a sample of news articles
 posted on Facebook by nine news organizations during the week leading up to the 2016 American election,
 from September 19 to 23 and September 26 and 27.
 This dataset was used by researchers in the [Discourse Processing Lab](http://www.sfu.ca/discourse-lab/software_and_data/demo.html), 
